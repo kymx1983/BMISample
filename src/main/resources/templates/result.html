@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Top Page</title>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+</head>
+<body>
+	<h1>BMI計算 結果</h1>
+	<table>
+		<tr>
+			<th>BMI</th>
+			<td th:text="${bmi}">M/A</td>
+		</tr>
+		<tr>
+			<th>判定結果</th>
+			<td th:text="${judge}">N/A</td>
+		</tr>
+	</table>
+</body>
+</html>
+
